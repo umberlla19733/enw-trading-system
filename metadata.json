@@ -1,0 +1,6 @@
+{
+  "name": "سیستم معاملاتی الیوت نئویو (elliottneowave.ir)",
+  "description": "سیستم معاملاتی پیشرفته الیوت نئویو: موتور هوش مصنوعی انسمبل، تاییدیه مولتی‌تایم‌فریم (M1+M5+M15)، فیلتر کراس EMA 60/240 HL/2، سپر محافظت اخبار اقتصادی و اکسپرت نسل ۶ متاتریدر ۵",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

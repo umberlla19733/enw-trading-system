@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'BYekan';
+  src: local('B Yekan'), local('BYekan'), local('Yekan'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BYekan';
+  src: local('B Yekan Bold'), local('BYekan Bold'), local('BYekan-Bold'), local('Yekan Bold'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan-Bold.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'B Yekan';
+  src: local('B Yekan'), local('BYekan'), local('Yekan'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: local('B Yekan'), local('BYekan'), local('Yekan'),
+       url('https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'BYekan', 'B Yekan', 'Yekan', 'Vazirmatn', Tahoma, system-ui, -apple-system, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'BYekan', 'B Yekan', 'Yekan', 'Vazirmatn', Tahoma, system-ui, -apple-system, sans-serif;
+  letter-spacing: normal;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars for mobile and desktop */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Smooth Touch Scrolling */
+.smooth-scroll-x {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+/* X-Style Smoky Dark Minimalist Architecture */
+.x-bg-primary {
+  background-color: #000000;
+}
+
+.x-bg-secondary {
+  background-color: #09090b;
+}
+
+.x-bg-surface {
+  background-color: #121214;
+}
+
+.x-bg-surface-elevated {
+  background-color: #18181b;
+}
+
+.x-border {
+  border-color: #27272a;
+}
+
+.x-card {
+  background-color: #0c0d0e;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(0, 0, 0, 0.4) 100%);
+  border: 1px solid #202327;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.7);
+}
+
+.x-card-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.x-card-hover:hover {
+  border-color: #38444d;
+  background-color: #111315;
+}
+
+.x-glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(29, 155, 240, 0.25);
+}
+
+.x-glow-emerald {
+  box-shadow: 0 0 25px -5px rgba(0, 186, 124, 0.25);
+}
+
+.x-glow-rose {
+  box-shadow: 0 0 25px -5px rgba(244, 33, 46, 0.25);
+}
+
+.fintech-card {
+  background-color: #0c0d0e;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(0, 0, 0, 0.5) 100%);
+  border: 1px solid #202327;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.8);
+}
+
+.fintech-card-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fintech-card-hover:hover {
+  border-color: #38444d;
+}
+
